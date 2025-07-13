@@ -28,9 +28,13 @@ go run main.go
 
 ![Mock 响应](./assets/mockpost.png)
 
-### 🚀 实际接入模型（API 接口示例）
+### 🚀 实际接入模型（文本摘要API 接口示例）
 
 ![真实模型调用](./assets/realapi.png)
+
+### 🚀 实际接入模型（网页摘要API 接口示例）
+
+![网页模型调用](./assets/webfetchcall.png)
 
 ### 🔐 环境变量配置（系统变量）
 推荐将deepseek API KEY 配置到系统变量中，防止使用.env文件管理泄露

@@ -15,8 +15,9 @@ func main() {
 	// 初始化 gin 路由
 	r := gin.Default()
 
-	// 定义 POST 接口 /summarize
+	// 定义 POST 接口
 	r.POST("/summarize", handler.SummarizeHandler)
+	r.POST("/summarize/url", handler.UrlSummarizeHandler)
 
 	// 启动服务，监听 8080 端口
 	r.Run(":8080")
